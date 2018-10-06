@@ -22,9 +22,9 @@ public class OjalgoTest {
         SparseStore<Double> m1m2 = SparseStore.PRIMITIVE.make(size, size);
 
         System.out.println("Load M1");
-        fillMatrix("/tmp/f1.txt", m1);
+        fillMatrix("src/test/resources/f1.txt", m1);
         System.out.println("Load M2");
-        fillMatrix("/tmp/f2.txt", m2);
+        fillMatrix("src/test/resources/f2.txt", m2);
 
         System.out.println("M1 * M2");
         m1.multiply(m2).supplyTo(m1m2);
