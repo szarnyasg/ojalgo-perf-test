@@ -1,4 +1,4 @@
-package ojalgo;
+package benchmarks;
 
 import org.junit.Test;
 import org.ojalgo.matrix.store.SparseStore;
