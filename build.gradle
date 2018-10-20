@@ -12,5 +12,6 @@ dependencies {
     compile group: 'net.sf.supercsv', name: 'super-csv', version: '2.4.0'
     compile group: 'org.ejml', name: 'ejml-dsparse', version: '0.36'
     compile group: 'org.ejml', name: 'ejml-simple', version: '0.36'
+    compile group: 'org.la4j', name: 'la4j', version: '0.6.0'
     compile group: 'com.googlecode.matrix-toolkits-java', name: 'mtj', version: '1.0.4'
 }
